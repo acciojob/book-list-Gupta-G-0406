@@ -6,8 +6,38 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-	<!-- the entire body must be written by student -->
+<<body>
+    <h1>MyBookList</h1>
+
+    <div class="form-group">
+      <label for="title">Title</label>
+      <br />
+      <input type="text" id="title" />
+      <br /><br />
+      <label for="author">Author</label>
+      <br />
+      <input type="text" id="author" />
+      <br /><br />
+      <label for="isbn">ISBN#</label>
+      <br />
+      <input type="text" id="isbn" />
+      <br /><br />
+      <button id="submit">Add Book</button>
+    </div>
+
+    <br />
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN#</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
